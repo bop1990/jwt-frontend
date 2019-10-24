@@ -1,0 +1,14 @@
+body,
+html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+section {
+  grid-area: main;
+}
+footer {
+  grid-area: footer;
+}
+
+

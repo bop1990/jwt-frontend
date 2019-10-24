@@ -1,12 +1,12 @@
 <form [formGroup]="formularioLogin" (ngSubmit)="onSubmit(formularioLogin.value)">
   <p-panel header="Login">
-      <div class="ui-grid ui-grid-responsive ui-grid-pad ui-fluid" style="margin: 10px 0px">
+      <div class="ui-grid ui-grid-responsive ui-grid-pad ui-fluid" style="margin: 10px 0px; width: 400px;">
           <div class="ui-grid-row">
               <div class="ui-grid-col-2">
                   Email:
               </div>
               <div class="ui-grid-col-6">
-                  <input pInputText type="email" formControlName="email"/>
+                  <input pInputText type="email" formControlName="email" size="40" />
               </div>
           </div>
 
@@ -15,7 +15,7 @@
                   Senha:
               </div>
               <div class="ui-grid-col-6">
-                  <input pInputText type="password" formControlName="senha"/>
+                  <input pInputText type="password" formControlName="senha" size="40" />
               </div>
           </div>
 
@@ -23,7 +23,7 @@
           <div class="ui-grid-row">
               <div class="ui-grid-col-2"></div>
               <div class="ui-grid-col-6">
-                  <button pButton type="submit" label="Entrar"></button>
+                  <button pButton type="submit" label="Entrar" ></button>
               </div>
               <div class="ui-grid-col-4"></div>
           </div>

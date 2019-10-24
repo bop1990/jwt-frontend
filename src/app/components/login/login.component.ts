@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, FormBuilder } from '@angular/forms';
 
 @Component({
-  selector: 'login',
+  selector: 'app-login',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css']
 })
@@ -20,7 +20,6 @@ export class LoginComponent implements OnInit {
   }
 
   onSubmit(value: string) {
-    console.log('enviar');
     console.log(value);
   }
 

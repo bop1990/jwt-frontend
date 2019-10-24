@@ -1,0 +1,41 @@
+.topo {
+  top: 0;
+}
+
+.barra {
+  width: 100%;
+  overflow: hidden;
+}
+
+.barra-item {
+  padding: 8px 16px;
+  float: left;
+  width: auto;
+  border: none;
+  display: block;
+  outline: 0;
+}
+
+.direita {
+  text-align: right !important;
+}
+
+.preto,
+.preto:hover {
+  color: #fff !important;
+  background-color: #000 !important;
+}
+
+.menu-botao {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}

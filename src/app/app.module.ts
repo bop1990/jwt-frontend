@@ -11,13 +11,15 @@ import { AppComponent } from './app.component';
 import {PanelModule} from 'primeng/panel';
 import {ButtonModule} from 'primeng/button';
 
-import { LoginComponent } from './login/login.component';
+import { LoginComponent } from './components/login/login.component';
+import { MenuComponent } from './components/menu/menu.component';
 
 @NgModule({
   declarations: [
     //components
     AppComponent,
-    LoginComponent
+    LoginComponent,
+    MenuComponent
   ],
   imports: [
     //modulos
