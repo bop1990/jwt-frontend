@@ -4,11 +4,26 @@ html {
   line-height: 1.8;
 }
 
-section {
-  grid-area: main;
-}
-footer {
-  grid-area: footer;
+.container{
+  max-width:980px;
+  margin: auto;
 }
 
+footer {
+  position:fixed;
+  bottom:0;
+  background-color: #333333;
+  color: white;
+  padding: 8px 16px;
+  width: 99%;
+  border: none;
+  display: block;
+  outline: 0;
+  height: 30px;
+  font-weight: 700;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 10px;
+  text-align: center;
+  overflow: hidden;
+}
 

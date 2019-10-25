@@ -23,7 +23,7 @@
 .preto,
 .preto:hover {
   color: #fff !important;
-  background-color: #000 !important;
+  background-color: #333333 !important;
 }
 
 .menu-botao {
@@ -38,4 +38,7 @@
   text-align: center;
   cursor: pointer;
   white-space: nowrap;
+  font-weight: 700;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
 }
