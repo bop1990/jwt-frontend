@@ -6,7 +6,9 @@
       <div class="direita">
         <a routerLink="/home" class="barra-item menu-botao">Home</a>
         <a routerLink="/login" class="barra-item menu-botao">Login</a>
-        <a href="#sobre" class="barra-item menu-botao">Sobre</a>
+        <a routerLink="#sobre" class="barra-item menu-botao">Sobre</a>
+        <a class="barra-item menu-botao" (click)="logout()"><i class="pi pi-sign-out" style="vertical-align: bottom;"></i>Sair</a>
+        <!-- <button pButton type="button" label="Sair" icon="pi pi-sign-out"></button> -->
       </div>
     </div>
   </div>
