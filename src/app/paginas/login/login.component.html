@@ -1,0 +1,31 @@
+<form [formGroup]="formularioLogin" (ngSubmit)="onSubmit(formularioLogin.value)" style="margin-top: 10%;">
+  <p-panel header="Login">
+      <div class="ui-grid ui-grid-responsive ui-grid-pad" style="margin: 20px 0px; width: 400px;">
+          <div class="ui-grid-row">
+            <span class="ui-float-label">
+              <input pInputText id="email" type="email" formControlName="email" size="40">
+              <label for="email">Email</label>
+            </span>
+          </div>
+
+          <div class="ui-grid-row" style="margin: 30px 0px;">
+              <!-- <div class="ui-grid-col-2">
+                  Senha:
+              </div>
+              <div class="ui-grid-col-6">
+                  <input pInputText type="password" formControlName="senha" size="40" />
+              </div> -->
+              <span class="ui-float-label">
+                <input pInputText id="senha" type="password" formControlName="senha" size="40">
+                <label for="senha">Senha</label>
+              </span>
+          </div>
+
+
+          <div class="ui-grid-row">
+            <button pButton type="submit" label="Entrar" icon="pi pi-sign-in"></button>
+          </div>
+
+      </div>
+  </p-panel>
+</form>
